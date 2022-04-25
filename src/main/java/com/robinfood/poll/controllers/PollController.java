@@ -21,7 +21,7 @@ public class PollController {
 
     @GetMapping
     @RequestMapping("/{id}")
-    private ResponseEntity<PollDTO> createPoll(@PathVariable("id") Long id) {
+    private ResponseEntity<PollDTO> findPollById(@PathVariable("id") Long id) {
         PollDTO pollDTO = this.pollService.findById(id);
         if (pollDTO == null)
             return ResponseEntity.noContent().build();

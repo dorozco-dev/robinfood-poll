@@ -23,6 +23,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation group: 'mysql', name: 'mysql-connector-java', version: '8.0.28'
     implementation 'org.mapstruct:mapstruct:1.4.2.Final'
+    implementation group: 'io.springfox', name: 'springfox-swagger2', version: '2.9.2'
+    implementation group: 'io.springfox', name: 'springfox-swagger-ui', version: '2.9.2'
     annotationProcessor 'org.mapstruct:mapstruct-processor:1.4.2.Final'
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'

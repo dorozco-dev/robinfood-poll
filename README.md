@@ -5,6 +5,9 @@
 
 ![alt text](https://github.com/dorozco-dev/robinfood-poll/blob/master/src/main/resources/MER.png?raw=true)
 
+### `http://localhost:8080/swagger-ui.html#/poll-controller/findPollByIdUsingGET`
+![alt text](https://github.com/dorozco-dev/robinfood-poll/blob/master/src/main/resources/SWAGGER.png?raw=true)
+
 ### `http://localhost:8080/poll/1`
 ```
 {
